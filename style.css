@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62, 5%;
+}
+
+body {
+  background: rgb(185, 43, 43);
+  color: azure;
+  font-size: 1.6rem;
+}
+
+header {
+  background-image: url(./Images/pizza.jpg);
+  background-size: cover;
+  height: 10rem;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 2rem;
+  text-align: end;
+}
+
+main h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.pizzas__doces .pizzas,
+.pizzas__salgadas .pizzas,
+.tipos__bebidas .bebidas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.pizzas__doces h3,
+.pizzas__salgadas h3,
+.tipos__bebidas h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.pizza,
+.bebida {
+  border: 0.2rem double #f3b509;
+  max-height: 35rem;
+  width: 13rem;
+}
+
+.pizza h4,
+.bebida h4 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.pizza p,
+.bebida p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.pizza p + p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pizza img,
+.bebida img {
+  height: 200px;
+  width: 200px;
+}
+
+.contatos h3 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.telefone,
+.whatsApp a,
+.instagram a {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.telefone img,
+.whatsApp img,
+.instagram img {
+  height: 2.5rem;
+}
+
+.whatsApp a,
+.instagram a {
+  text-decoration: none;
+  color: azure;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer > a > img {
+  width: 2rem;
+}
